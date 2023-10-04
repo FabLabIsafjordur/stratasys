@@ -26,4 +26,10 @@ Now your printer should appear in the list of FDM Systems.
 
 Open the Insight software.
 
-The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atwlq6/stratasys_insight_and_dimension_1200_sst/) to operate exactly like a Fortus 250 printer. So you set the printer as Fortus 250 when you first open up the software. Stratasys limits the layer heights that you can use, as well as the build volume of the printer.
+![Insight](images/insight.jpg)
+
+Select the icon that looks like the 3D printer.
+
+The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atwlq6/stratasys_insight_and_dimension_1200_sst/) to operate exactly like a Fortus 250 printer. So you configure the printer as Fortus 250.
+
+![Modeler](images/modeler.jpg)
