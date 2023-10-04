@@ -37,7 +37,7 @@ Press Stop, then choose the Support side. Do the same thing with the HIPS materi
 Go to Maintenance -> System -> Test parts and choose a test part to print.
 ## Slice an STL model
 
-Open the Insight software.
+Open the Insight software. 
 
 ![Insight](images/insight.jpg)
 
@@ -46,3 +46,7 @@ Select the icon that looks like the 3D printer.
 The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atwlq6/stratasys_insight_and_dimension_1200_sst/) to operate exactly like a Fortus 250 printer. So you configure the printer as Fortus 250.
 
 ![Modeler](images/modeler.jpg)
+
+Here's a  [basic tutorial](https://www.youtube.com/watch?v=jisB9HIgxOc) on how to process parts in Insight.
+
+[Here's a tip](https://www.youtube.com/watch?v=HfuPfBoaE1U) on modifying supports in Insight. There are more Insight tutorial videos on the same Youtube channel.
