@@ -22,6 +22,19 @@ To connect to the printer, select the Manage FDM Systems button near the top.
 
 Now your printer should appear in the list of FDM Systems.
 
+## Load modeling material
+
+The modeling material (ABS) goes in the top tray and the support material (HIPS or SR-30) goes in the bottom tray. Let's go through how to load modeling material into the printer.
+
+The printers have a self-load feature which you can access from the main menu by going into Material. This takes a long time. It's much quicker to do it manually.
+
+Go into Maintenance -> Machine. Then you need to wait while the printer calibrates itself and warms up. Once it's warm you get another menu. Go into Head. The head will warm up to melting temperature. Once the head is hot you can choose which side you want to work on. Choose Model material. Then select Forward. The wheel in the printhead starts turning. You load the filament through the little hole inside the cartridge in the top bay in the printer (the one marked with 'M'). Then you need to push the filament into the printer, all the way up to the printhead, where it engages with the wheel and starts extruding through the tip.
+
+Press Stop, then choose the Support side. Do the same thing with the HIPS material in the bottom bay (the one marked 'S').
+
+## Print test part
+
+Go to Maintenance -> System -> Test parts and choose a test part to print.
 ## Slice an STL model
 
 Open the Insight software.
