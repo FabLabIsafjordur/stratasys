@@ -22,7 +22,7 @@ To connect to the printer, select the Manage FDM Systems button near the top.
 
 Now your printer should appear in the list of FDM Systems.
 
-## Load modeling material
+## Load material
 
 The modeling material (ABS) goes in the top tray and the support material (HIPS or SR-30) goes in the bottom tray. Let's go through how to load modeling material into the printer.
 
