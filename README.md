@@ -1,6 +1,10 @@
 # How to use the Dimension 1200SST 3D printers
 
+## Set up the software
+
 Set up the [Stratasys Insight](files/InsightTo114-64Test-off.exe) software.
+
+## Connect to the printer
 
 You need to plug the printer into power to turn it on. It takes a moment to turn on and heat up. To connect to the printer and send print jobs, you need to connect the printer with a LAN cable to a router, and your computer needs to be connected to the same router.
 
@@ -16,8 +20,10 @@ To connect to the printer, select the Manage FDM Systems button near the top.
 
 ![Add FDM System](images/add_fdm_system.jpg)*Here you input the IP address of the printer and you can also give it a name. Select Fortus 250mc in the dropdown menu at the bottom.*
 
-You need the Stratasys Insight software to slice objects and make toolpaths (CMB files). Then you open the CMB files in the Control Center software in order to send jobs to the printer. Both programs are in one package here:
+Now your printer should appear in the list of FDM Systems.
 
-The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atwlq6/stratasys_insight_and_dimension_1200_sst/) to operate exactly like a Fortus 250 printer. So you set the printer as Fortus 250 when you first open up the software. Stratasys limits the layer heights that you can use, as well as the build volume of the printer. To fix that, download this and put it in Program Files.
+## Slice an STL model
 
-You need to set the printer
+Open the Insight software.
+
+The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atwlq6/stratasys_insight_and_dimension_1200_sst/) to operate exactly like a Fortus 250 printer. So you set the printer as Fortus 250 when you first open up the software. Stratasys limits the layer heights that you can use, as well as the build volume of the printer.
