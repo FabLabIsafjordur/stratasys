@@ -66,4 +66,8 @@ If you open Control Center you should also see a larger build volume.
 ![Build volume](images/build_volume.jpg)
 
 ## Reset the cartridge chips
-When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to grab an Arduino and one 2.2k resistor and follow [this tutorial](https://www.youtube.com/watch?v=M94D-Pot6c8) to 'refill' the cartridge with material.
+When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to grab an Arduino and one 2.2kOhm resistor and follow [this tutorial](https://www.youtube.com/watch?v=M94D-Pot6c8) to 'refill' the cartridge with material.
+
+## Further instructions
+
+You'll can find the manuals in the [files](files) folder.
