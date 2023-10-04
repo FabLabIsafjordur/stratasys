@@ -72,3 +72,28 @@ When the printer says that your model or support cartridge is empty, it ejects t
 ## Further instructions
 
 You'll can find the manuals in the [files](files) folder.
+
+## Specifications
+
+- The SST 1200es uses Soluble Support Technology in which the supports are dissolved after printing in a solution
+- Dimension SST 1200es: $32,900*
+- Model material:
+ABSplus in ivory, white, black, red, olive green, nectarine, fluorescent yellow, blue or gray.
+- Support material:
+Soluble Support Technology (SST)
+- Build Size:
+254 x 254 x 305 mm (10 x 10 x 12 inches)
+- Layer Thickness:
+.254 mm (.010 in.) or .33 mm. (.013 in.) of precisely deposited ABSplus model and support material.
+- Workstation Compatibility:
+Windows® XP / Windows Vista® / Windows® 7
+- Network Connectivity:
+Ethernet TCP/IP 10/100Base-T
+- Size and Weight:
+838 x 737 x 1143 mm (33 x 29 x 45 in.)
+148 kg (326 lbs.)
+- Power Requirements:
+110-120 VAC, 60 Hz, minimum15A dedicated circuit;
+or 220-240 VAC, 50/60 Hz, minimum 7A dedicated circuit
+- Regulatory Compliance:
+CE / ETL
