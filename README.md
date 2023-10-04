@@ -71,7 +71,7 @@ When the printer says that your model or support cartridge is empty, it ejects t
 
 ## Further instructions
 
-You'll can find the manuals in the [files](files) folder.
+You'll can find the manuals in the [files](https://github.com/FabLabIsafjordur/stratasys/tree/main/files) folder.
 
 ## Specifications
 
