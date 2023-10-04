@@ -1,5 +1,6 @@
 # How to use the Dimension 1200SST 3D printers
 
+![The printers](images/printers.jpg)
 ## Set up the software
 
 Set up the [Stratasys Insight](files/InsightTo114-64Test-off.exe) software.
