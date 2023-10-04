@@ -50,3 +50,17 @@ The printer has been [modified](https://www.reddit.com/r/3Dprinting/comments/atw
 Here's a  [basic tutorial](https://www.youtube.com/watch?v=jisB9HIgxOc) on how to process parts in Insight.
 
 [Here's a tip](https://www.youtube.com/watch?v=HfuPfBoaE1U) on modifying supports in Insight. There are more Insight tutorial videos on the same Youtube channel.
+
+## Upgrade print options in Insight
+
+Download and extract [kapaa.zip](files/kapaa.zip).
+
+Go to C:\Program Files\Stratasys\Insight 11.4\modelers and rename the kapaa folder to kapaa_old. Copy the extracted kapaa folder to the location.
+
+The next time you open Insight you should have more layer height options.
+
+![Slice height](images/slice_height.jpg)
+
+If you open Control Center you should also see a larger build volume.
+
+![Build volume](images/build_volume.jpg)
