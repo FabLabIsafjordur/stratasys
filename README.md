@@ -69,15 +69,19 @@ If you open Control Center you should also see a larger build volume.
 ## Reset the cartridge chips
 When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to:
 
-1. Grab an Arduino
+1. Get an Arduino and a 2.2 kΩ resistor
 1. Download the [OneWire library](https://github.com/PaulStoffregen/OneWire) (click the Code button and download the zip folder)
 1. Extract the zip folder to '...\Documents\Arduino\libraries'
 1. Download the [Arduino IDE](https://www.arduino.cc/en/software)
 1. Open [this Arduino program](files/onewireProxy.ino/) ([source](https://github.com/meawoppl/eepromTool-ds2433)) in the Arduino IDE and upload it to your Arduino board
 1. Download [CartridgeWriter](https://github.com/slaytonrnd/CartridgeWriter) by clicking the Code button, downloading the zip folder and extracting it to any folder
-1. Then you'll need to connect one 2.2 kΩ resistor and run CartridgeWriter to 'refill' the cartridge with material, as shown in °this Youtube tutorial:
+1. Then you'll need to connect the 2.2 kΩ resistor and run CartridgeWriter to 'refill' the cartridge with material, as shown in this video tutorial:
 
 ![Chip reset Youtube video](images/chip_reset_play.jpg)
+
+## Advanced printer settings
+
+The printer has fixed printing temperatures, which are set in the material profiles. But you can manually set the chamber and tip temperatures with the [Maraca Ex software](https://forum.duet3d.com/topic/32754/can-anyone-help-with-a-copy-of-maraca-ex), which is rarely seen online, since only Stratasys service technicians are supposed to have access to it.
 
 ## Further instructions
 
