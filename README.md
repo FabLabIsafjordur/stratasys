@@ -67,11 +67,19 @@ If you open Control Center you should also see a larger build volume.
 ![Build volume](images/build_volume.jpg)
 
 ## Reset the cartridge chips
-When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to grab an Arduino and one 2.2kOhm resistor and follow [this tutorial](https://www.youtube.com/watch?v=M94D-Pot6c8) to 'refill' the cartridge with material.
+When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to:
+
+1. grab an Arduino
+1. Download the [OneWire library](https://github.com/PaulStoffregen/OneWire) (click the Code button and download the zip folder)
+1. Extract the zip folder to '...\Documents\Arduino\libraries'
+1. Download the [Arduino IDE](https://www.arduino.cc/en/software)
+1. Open [this Arduino program](files/onewireProxy.ino/) ([source](https://github.com/meawoppl/eepromTool-ds2433)) in the Arduino IDE and upload it to your Arduino board
+1. Download [CartridgeWriter](https://github.com/slaytonrnd/CartridgeWriter) by clicking the Code button, downloading the zip folder and extracting it to any folder
+1. Then you'll need to connect one 2.2 kΩ resistor and run CartridgeWriter to 'refill' the cartridge with material, as shown in [this tutorial](https://www.youtube.com/watch?v=M94D-Pot6c8)
 
 ## Further instructions
 
-You'll can find the manuals in the [files](https://github.com/FabLabIsafjordur/stratasys/tree/main/files) folder.
+You'll can find the user guides and service manual in the [files](https://github.com/FabLabIsafjordur/stratasys/tree/main/files) folder.
 
 ## Specifications
 
