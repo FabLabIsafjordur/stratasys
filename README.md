@@ -92,13 +92,13 @@ When the printer says that your model or support cartridge is empty, it ejects t
 1. Download [CartridgeWriter](https://github.com/slaytonrnd/CartridgeWriter) by clicking the Code button, downloading the zip folder and extracting it to any folder
 1. Then you'll need to connect the 2.2 kΩ resistor and run CartridgeWriter to 'refill' the cartridge with material, as shown in this video tutorial:
 
-![Chip reset Youtube video](images/chip_reset_play.jpg)
+[![Chip reset Youtube video](images/chip_reset_play.jpg)](https://www.youtube.com/watch?v=M94D-Pot6c8)
 
 There are people selling Stratasys chip reset devices online for hundreds of dollars, but they are just Arduino boards in nice enclosures.
 
 ## Advanced printer settings
 
-The printer has fixed printing temperatures, which are set in the material profiles. But you can manually set the chamber and tip temperatures with the [Maraca Ex software](https://forum.duet3d.com/topic/32754/can-anyone-help-with-a-copy-of-maraca-ex), which is rarely seen online, since only Stratasys service technicians are supposed to have access to it.
+The printer has fixed printing temperatures, which are set in the material profiles. But you can manually set the chamber and tip temperatures with the [Maraca EX software](files/MaracaEX-V440-4274.zip), which is rarely seen online, since only Stratasys service technicians are supposed to have access to it.
 
 ## Further instructions
 
