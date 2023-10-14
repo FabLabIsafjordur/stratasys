@@ -77,7 +77,7 @@ If you open Control Center you should also see a larger build volume.
 1. Then click Read - this will fill out the fields.
 1. Click 'Create new' twice
 1. Click Write and if you get an error, try clicking it again
-1. The cartridge is now full
+1. Select Materials from the main menu of the printer and check if the cartridge is now full
 
 ## Reset the cartridge chips with Arduino
 When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to:
