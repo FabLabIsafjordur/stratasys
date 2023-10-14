@@ -66,7 +66,20 @@ If you open Control Center you should also see a larger build volume.
 
 ![Build volume](images/build_volume.jpg)
 
-## Reset the cartridge chips
+## Reset the cartridge chips in the printer
+
+1. Get a serial cable and a USB to serial adapter
+1. Connect it to the back of the printer and your computer
+1. Download [Material.zip](https://github.com/FabLabIsafjordur/stratasys/blob/main/files/Material.zip) and extract it
+1. Open StrataToolNK.exe
+1. The printer needs to be in IDLE or PAUSED state (not MATERIAL or PRINTING)
+1. Select Material or Support
+1. Then click Read - this will fill out the fields.
+1. Click 'Create new' twice
+1. Click Write and if you get an error, try clicking it again
+1. The cartridge is now full
+
+## Reset the cartridge chips with Arduino
 When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to:
 
 1. Get an Arduino and a 2.2 kΩ resistor
