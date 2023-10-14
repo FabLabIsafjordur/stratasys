@@ -98,7 +98,7 @@ There are people selling Stratasys chip reset devices online for hundreds of dol
 
 ## Advanced printer settings
 
-The printer has fixed printing temperatures, which are set in the material profiles. But you can manually set the chamber and tip temperatures with the [Maraca EX software](files/MaracaEX-V440-4274.zip), which is rarely seen online, since only Stratasys service technicians are supposed to have access to it.
+The printer has fixed printing temperatures, which are set in the material profiles. But you can manually set the chamber and tip temperatures over Ethernet with the [Maraca EX software](files/MaracaEX-V440-4274.zip), which is rarely seen online, since only Stratasys service technicians are supposed to have access to it.
 
 ## Further instructions
 
