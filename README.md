@@ -81,7 +81,7 @@ If you open Control Center you should also see a larger build volume.
 1. Click 'Write Chip' and if you get an error, try clicking it again
 1. Select Materials from the main menu of the printer and check if the cartridge is now full
 
-## Reset the cartridge chips with Arduino
+## Reset the cartridge chips with an Arduino
 When the printer says that your model or support cartridge is empty, it ejects the cartridge. Then you need to:
 
 1. Get an Arduino and a 2.2 kΩ resistor
@@ -93,6 +93,8 @@ When the printer says that your model or support cartridge is empty, it ejects t
 1. Then you'll need to connect the 2.2 kΩ resistor and run CartridgeWriter to 'refill' the cartridge with material, as shown in this video tutorial:
 
 ![Chip reset Youtube video](images/chip_reset_play.jpg)
+
+There are people selling Stratasys chip reset devices online for hundreds of dollars, but they are just Arduino boards in nice enclosures.
 
 ## Advanced printer settings
 
