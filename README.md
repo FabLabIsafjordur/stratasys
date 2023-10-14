@@ -73,10 +73,12 @@ If you open Control Center you should also see a larger build volume.
 1. Download [Material.zip](https://github.com/FabLabIsafjordur/stratasys/blob/main/files/Material.zip) and extract it
 1. Open StrataToolNK.exe
 1. The printer needs to be in IDLE or PAUSED state (not MATERIAL or PRINTING)
-1. Select Material or Support
-1. Then click Read - this will fill out the fields.
-1. Click 'Create new' twice
-1. Click Write and if you get an error, try clicking it again
+1. Select pclass at the top
+1. Select Material or Support in OPTIONS
+1. Select the right COM port
+1. Then click 'Read Chip' - this will fill out the fields.
+1. Click 'Create Chip' twice
+1. Click 'Write Chip' and if you get an error, try clicking it again
 1. Select Materials from the main menu of the printer and check if the cartridge is now full
 
 ## Reset the cartridge chips with Arduino
